@@ -9594,19 +9594,6 @@ h6,
   background: #DA9F5B;
 }
 
-.service-icon {
-  margin-right: 15px;
-  width: 45px;
-  height: 45px;
-  font-size: 18px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 45px;
-  color: #33211D;
-  background: #DA9F5B;
-}
-
 .menu-price {
   position: absolute;
   margin: 0;
@@ -9663,3 +9650,33 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
 }
+.footer-container {
+  background-color: #333; /* Background color of the footer container */
+  padding: 20px; /* Padding around the content inside the footer container */
+}
+
+.footer-menu {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.footer-menu li {
+  display: inline-block; /* Display menu items horizontally */
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+.footer-menu li:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.footer-menu li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Text color of menu items */
+  font-size: 16px; /* Font size of menu items */
+}
+
+.footer-menu li a:hover {
+  color: #ffcc00; /* Text color of menu items on hover */
+}
+
